@@ -14,3 +14,10 @@ async def root(message:str):
 @app.post("/api/login")
 async def login(loginItem:LoginItem):
     print(loginItem)
+
+@app.get("/api/home")
+async def home(path:str):
+    print("파일이 ")
+
+
+
