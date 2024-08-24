@@ -64,4 +64,4 @@ async def home(path:str):
 if __name__ == "__main__":
     init_db()  # 서버 시작 시 데이터베이스 초기화 및 기본 사용자 추가
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="0.0.0.1", port=8000)
